@@ -1,0 +1,18 @@
+.product {
+    margin-top: 80px;
+
+    &__title-box{
+        margin-bottom: 32px;
+    }
+
+    &__title{
+        @include title-h2;
+    }
+
+    &__pic-container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 1180px;
+    }
+}

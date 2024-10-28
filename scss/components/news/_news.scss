@@ -1,0 +1,15 @@
+.news {
+    margin-top: 80px;
+
+    &__title-box {
+        margin-bottom: 32px;
+    }
+
+    &__title {
+        @include title-h2;
+    }
+
+    &__area {
+        display: flex;
+    }
+}

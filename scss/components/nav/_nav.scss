@@ -1,0 +1,32 @@
+.nav{
+    padding: 0;
+    margin-top: 20px;
+
+    &__menu{
+        display: flex;
+        justify-content: space-between;
+        width: 1180px;
+
+        &-container{
+            margin-right: 30px;
+        }
+
+        &-text{
+            color: $greyColor-text;
+            font-size: 16px;
+            line-height: 19px;
+        }
+    }
+
+    &__contact{
+        display: flex;
+        margin-left: 50px;
+
+        &-link{
+            font-size: 19px;
+            line-height: 19px;
+            margin-left: 5px;
+            color: $blueColor-links;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.home {
+    display: flex;
+    flex-direction: column;
+
+    &__title-container {
+        display: flex;
+        max-width: 1024px;
+        max-height: 144px;
+        margin-bottom: 60px;
+    }
+
+    &__title-box {
+        max-width: 600px;
+        max-height: 144px;
+        margin-right: 40px;
+    }
+
+    &__title{
+        font-size: 60px;
+    }
+
+    &__text-box{
+        margin-top: 32px;
+        width: 379px;
+        height: 74px; 
+    }
+
+    &__text{
+        font-size: 16px;
+        color: $greyColor-text;
+    }
+
+    &__img-box{
+        width: 1180px;
+    }
+}

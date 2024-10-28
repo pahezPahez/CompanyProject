@@ -1,0 +1,44 @@
+.header {
+    margin-left: 350px;
+    margin-right: 300px;
+    margin-top: 32px;
+    margin-bottom: 80px;
+    width: 1180px;
+
+    &__logo-section {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        width: 1180px;
+    }
+
+    &__info {
+        display: flex;
+
+        &-container {
+            display: flex;
+            flex-direction: column;
+            margin-right: 60px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
+        &-text {
+            display: flex;
+            justify-content: end;
+            color: $greyColor-text;
+            font-size: 15px;
+            line-height: 18px;
+        }
+
+        &-link {
+            display: flex;
+            justify-content: end;
+            font-size: 20px;
+            line-height: 29px;
+            color: $blueColor-links;
+        }
+    }
+}

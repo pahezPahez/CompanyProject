@@ -1,0 +1,35 @@
+@mixin link-box-margin {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 24px;
+}
+
+
+
+@mixin title-h2{
+    font-size: 48px;
+    line-height: 57px;
+}
+
+
+
+@mixin news-card{
+    background: $card-color;
+    width: 380px;
+    height: 478px;
+    margin-right: 20px;
+}
+
+@mixin news-img{
+    margin-bottom: 16px;
+    width: 380px;
+    height: 251px;
+}
+
+@mixin news-img-text{
+    font-size: 20px;
+    line-height: 28px;
+    padding: 16px 16px 16px;
+}

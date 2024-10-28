@@ -1,0 +1,49 @@
+.about {
+    margin-top: 80px;
+
+    &__title-box{
+        margin-bottom: 32px;
+    }
+
+    &__title{
+        @include title-h2;
+    }
+
+    &__container-text{
+        display: flex;
+    }
+
+    &__text-box{
+        margin-right: 20px;
+        width: 580px; 
+
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+
+    &__text{
+        font-size: 16px;
+        line-height: 22px;
+        color: $greyColor-text;
+        margin-bottom: 24px;
+
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+
+    &__pic-container{
+        display: flex;
+        justify-content: space-between;
+        width: 1180px;
+    }
+
+    &__pic-box{
+        margin-right: 20px;
+
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+}

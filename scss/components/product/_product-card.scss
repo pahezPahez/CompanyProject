@@ -1,0 +1,61 @@
+.product-card {
+    background: $card-color;
+    width: 380px;
+    height: 435px;
+    margin-bottom: 25px;
+
+    &__pic-one {
+        padding-top: 32px;
+        padding-left: 24px;
+        margin-bottom: 107px;
+    }
+
+    &__pic-two {
+        padding-top: 55px;
+        padding-left: 24px;
+        margin-bottom: 166px;
+    }
+
+    &__pic-three {
+        padding-top: 32px;
+        padding-left: 24px;
+        margin-bottom: 143px;
+    }
+
+    &__pic-four {
+        padding-top: 32px;
+        padding-left: 24px;
+        margin-bottom: 152px;
+    }
+
+    &__pic-five {
+        padding-top: 32px;
+        padding-left: 24px;
+        margin-bottom: 160px;
+    }
+
+    &__pic-six {
+        padding-top: 32px;
+        padding-left: 24px;
+        margin-bottom: 163px;
+    }
+
+    &__pic-title {
+        font-size: 28px;
+        line-height: 33px;
+        padding-left: 24px;
+        padding-bottom: 12px;
+    }
+
+    &__link-container {
+        padding-left: 24px;
+        margin: 0;
+    }
+
+    &__link {
+        font-size: 20px;
+        line-height: 24px;
+        color: $blueColor-links;
+        margin: 0;
+    }
+}
